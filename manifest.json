@@ -1,0 +1,13 @@
+{
+    "id": "com.haeffound.idfmpack",
+    "name": "IdFM Train Pack",
+    "description": "This pack contains various material for Paris; some in current use, some very soon. You will find:\nMetro on Rail (MF 01/MF 19), Metro on rubber tyres (MP 89/MP 14), Metro for the Grand Paris Express (MR3V/MR6V)\nTrains for the RER (MI 09/MI 84/MI 20/Z 2N/RER NG)\nTrains for the Transilien (NAT/Francilien)\nTram-trains for the Express lines (Dualis)\nTrams for the surrounding suburbs of Paris (Citadis)\nAPM for Orly and Roissy Airport (VAL)",
+    "version": "1.0.0",
+    "author": {
+        "name": "Haeffound"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "subway-builder": ">=1.7.18"
+    }
+}
