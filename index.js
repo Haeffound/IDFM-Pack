@@ -13,7 +13,7 @@
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
-        	maxSlopePercentage: 4,
+        	maxSlopePercentage: 5.5,
         	maxSpeedLocalStation: 8.5,   // m/s (≈30 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 4.47,        // m/s (≈15 kph)
@@ -60,7 +60,7 @@
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
-        	maxSlopePercentage: 4,
+        	maxSlopePercentage: 5.5,
         	maxSpeedLocalStation: 8.5,   // m/s (≈30 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 4.47,        // m/s (≈15 kph)
