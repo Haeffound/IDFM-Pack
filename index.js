@@ -230,7 +230,7 @@
         	tphLimit: 40,
 	    },
 	    compatibleTrackTypes: ['mr3v'],
-	    appearance: {color: '#A50034', roofStyle: 'rounded', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2, catenary: true},
+	    appearance: {color: '#A50034', roofStyle: 'rounded', bodyColor: '#67B4E7', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
 	    rampCost: 5_000_000,
 	    maxOverpassSpan: 150,
@@ -249,7 +249,7 @@
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 150,
         	maxSlopePercentage: 4,
-        	maxSpeedLocalStation: 13.88, // m/s (≈50 kph)
+        	maxSpeedLocalStation: 33.33, // m/s (≈120 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
         	stopTimeSeconds: 30,
@@ -277,7 +277,7 @@
         	stationMaintenanceCostPerYear: 200_000,
         	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['mi09', 'francilien'],
+	    compatibleTrackTypes: ['mi09', 'francilien', 'z2n', 'rerng', 'r2n'],
 	    appearance: {color: '#FF1400', roofStyle: 'boxy', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
 	    rampCost: 5_000_000,
@@ -305,7 +305,7 @@
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 150,
         	maxSlopePercentage: 4,
-        	maxSpeedLocalStation: 13.88, // m/s (≈50 kph)
+        	maxSpeedLocalStation: 33.33, // m/s (≈120 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
         	stopTimeSeconds: 40,
@@ -333,7 +333,7 @@
         	stationMaintenanceCostPerYear: 160_000,
         	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['mi84', 'mi20', 'mi09', 'z2n', 'rerng', 'francilien'],
+	    compatibleTrackTypes: ['mi84', 'mi20', 'mi09', 'z2n', 'rerng', 'francilien', 'r2n'],
 	    appearance: {color: '#3C91DC', roofStyle: 'boxy', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
 	    rampCost: 5_000_000,
@@ -360,7 +360,7 @@
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 150,
         	maxSlopePercentage: 4,
-        	maxSpeedLocalStation: 13.88, // m/s (≈50 kph)
+        	maxSpeedLocalStation: 33.33, // m/s (≈120 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
         	stopTimeSeconds: 40,
@@ -389,7 +389,7 @@
         	tphLimit: 40,
 	    },
 
-	    compatibleTrackTypes: ['mi20', 'mi84', 'mi09', 'z2n', 'rerng', 'francilien'],
+	    compatibleTrackTypes: ['mi20', 'mi84', 'mi09', 'z2n', 'rerng', 'francilien', 'r2n'],
 	    appearance: {color: '#3C91DC', roofStyle: 'rounded', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
 	    rampCost: 5_000_000,
@@ -417,7 +417,7 @@
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 150,
         	maxSlopePercentage: 3.5,
-        	maxSpeedLocalStation: 13.88, // m/s (≈50 kph)
+        	maxSpeedLocalStation: 38.90, // m/s (≈140 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
         	stopTimeSeconds: 50,
@@ -445,7 +445,7 @@
         	stationMaintenanceCostPerYear: 160_000,
         	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['z2n', 'rerng', 'francilien'],
+	    compatibleTrackTypes: ['z2n', 'rerng', 'francilien', 'r2n'],
 	    appearance: {color: '#FFBE00', roofStyle: 'boxy', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
 	    rampCost: 5_000_000,
@@ -473,7 +473,7 @@
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 150,
         	maxSlopePercentage: 4,
-        	maxSpeedLocalStation: 13.88, // m/s (≈50 kph)
+        	maxSpeedLocalStation: 38.90, // m/s (≈140 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
         	stopTimeSeconds: 45,
@@ -501,7 +501,7 @@
         	stationMaintenanceCostPerYear: 160_000,
         	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['rerng', 'z2n', 'francilien'],
+	    compatibleTrackTypes: ['rerng', 'z2n', 'francilien', 'r2n'],
 	    appearance: {color: '#00643C', roofStyle: 'boxy', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
 	    rampCost: 5_000_000,
@@ -528,8 +528,8 @@
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 150,
-        	maxSlopePercentage: 3.5,
-        	maxSpeedLocalStation: 13.88, // m/s (≈50 kph)
+        	maxSlopePercentage: 4,
+        	maxSpeedLocalStation: 38.90, // m/s (≈140 kph)
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
         	stopTimeSeconds: 30,
@@ -557,8 +557,63 @@
         	stationMaintenanceCostPerYear: 160_000,
         	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['francilien', 'rerng', 'z2n', 'mi09'],
-	    appearance: {color: '#D282BE', roofStyle: 'boxy', bodyColor: '#BFC1BE', couplerWidthMultiplier: 2, catenary: true},
+	    compatibleTrackTypes: ['francilien', 'rerng', 'z2n', 'mi09', 'r2n'],
+	    appearance: {color: '#D282BE', roofStyle: 'rounded', bodyColor: '#BFC1BE', couplerWidthMultiplier: 2, catenary: true},
+	    portalCost: 15_000_000,
+	    rampCost: 5_000_000,
+	    maxOverpassSpan: 150,
+	    allowGradeCrossing: true,
+	    gradeCrossingBaseCost: 200_000,
+	    gradeCrossingMaintenancePerDay: 2_500,
+	    gradeCrossingTphLimit: {
+		highway: null,
+		major: 14,
+		medium: 20,
+		minor: 30,
+    	},
+	})
+	window.SubwayBuilderAPI.trains.registerTrainType({
+	    id: 'r2n',
+	    name: 'Regio 2N',
+	    description: 'The Porteur Hyperdense is a familly of hybrid double-deck EMU created for regional services. Can run in multiple unit of 3 coupled EMU',
+	    stats: {
+        	maxSpeed: 44.44,             // m/s (≈160 kph)
+        	maxAcceleration: 0.79,
+        	maxDeceleration: 1.25,
+        	maxLateralAcceleration: 1,
+        	maxCantMm: 160,
+        	maxCantDeficiencyMm: 150,
+        	maxSlopePercentage: 4,
+        	maxSpeedLocalStation: 44.44, // m/s (≈160 kph)
+        	crossoverSpeed: 6.95,        // m/s (≈25 kph)
+        	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
+        	stopTimeSeconds: 40,
+        	turnaroundTimeSeconds: 120,
+        	minTurnRadius: 150,
+        	minStationTurnRadius: 500,
+        	parallelTrackSpacing: 3.5,
+        	trackClearance: 2.1,
+        	minCars: 8,
+        	maxCars: 24,
+        	carsPerCarSet: 8,
+        	capacityPerCar: 130,
+			seatsPerCar: 74,
+			doorsPerCarPerSide: 1,
+        	carLength: 13.7,
+        	trainWidth: 2.99,
+        	minStationLength: 110,
+        	maxStationLength: 334,
+        	carCost: 1_800_000,
+        	baseTrackCost: 28_000,
+        	baseStationCost: 40_000_000,
+        	trainOperationalCostPerHour: 360,
+        	carOperationalCostPerHour: 35,
+        	trackMaintenanceCostPerMeter: 280,
+        	stationMaintenanceCostPerYear: 160_000,
+        	tphLimit: 40,
+	    },
+	    compatibleTrackTypes: ['r2n', 'rerng', 'z2n', 'francilien'],
+	    appearance: {color: '#00A88F', roofStyle: 'rounded', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
 	    rampCost: 5_000_000,
 	    maxOverpassSpan: 150,
@@ -613,7 +668,7 @@
         	stationMaintenanceCostPerYear: 60_000,
         	tphLimit: 30,
 	    },
-	    compatibleTrackTypes: ['dualis', 'citadis', 'tram', 'light-rail', 'z2n', 'francilien', 'rerng'],
+	    compatibleTrackTypes: ['dualis', 'citadis', 'tram', 'light-rail', 'z2n', 'francilien', 'rerng', 'r2n'],
 	    appearance: {color: '#6E6E00', roofStyle: 'boxy', bodyColor: '#BFC1BE', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 6_000_000,
 	    rampCost: 3_000_000,
