@@ -575,7 +575,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'r2n',
 	    name: 'Regio 2N',
-	    description: 'The Porteur Hyperdense is a familly of hybrid double-deck EMU created for regional services. Can run in multiple unit of 3 coupled EMU',
+	    description: 'The Regio 2N Transilien is a high-capacity double-deck commuter train designed for the busy suburban rail network around Paris. It can run in multiple unit of up to 3 coupled EMU.',
 	    stats: {
         	maxSpeed: 44.44,             // m/s (≈160 kph)
         	maxAcceleration: 0.79,
