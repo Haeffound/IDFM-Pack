@@ -8,8 +8,10 @@
 	    description: 'A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, it features full-width gangways and refrigerated ventilation.',
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
-        	maxAcceleration: 0.95,
-        	maxDeceleration: 1,
+            maxAcceleration: 1.25,
+			accelerationCurve: { a0: 1.25, a1: 1.25, v1: 10.0, v2: 21.1, exponent: 2}, // load not compensated, load compensated is 1.25, 1.25, 10.0, 21.1, 2, numbers based on WMATA 7000 series traction and mass
+            maxDeceleration: 0.98,
+            maxLateralAcceleration: 1.00,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
