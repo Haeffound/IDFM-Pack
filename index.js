@@ -8,8 +8,8 @@
 	    description: 'A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, it features full-width gangways and refrigerated ventilation.',
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
-            maxAcceleration: 1.25,
-			accelerationCurve: { a0: 1.25, a1: 1.25, v1: 10.0, v2: 21.1, exponent: 2}, // load not compensated, load compensated is 1.25, 1.25, 10.0, 21.1, 2, numbers based on WMATA 7000 series traction and mass
+            maxAcceleration: 0.9,
+			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 8, v2: 12.5, exponent: 2.5},
             maxDeceleration: 0.98,
             maxLateralAcceleration: 1.00,
         	maxLateralAcceleration: 0.9,
@@ -58,6 +58,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxAcceleration: 0.95,
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 8.5, v2: 13.5, exponent: 3},
         	maxDeceleration: 1.1,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -105,6 +106,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.25,
+			accelerationCurve: { a0: 1.25, a1: 1.25, v1: 9, v2: 13.3, exponent: 4.5},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -150,7 +152,8 @@
 	    description: 'The latest generation of rubber-tyred metro trains in Paris, available in several train lengths and both automated and driver-operated versions. Its high-capacity configurations are designed for some of the busiest lines. Exists in 5, 6 and 8 cars configurations.',
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
-        	maxAcceleration: 1.35,
+        	maxAcceleration: 1.3,
+			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 15, exponent: 5},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -198,7 +201,8 @@
 	    stats: {
         	maxSpeed: 30.6,             // m/s (≈110 kph)
         	maxAcceleration: 1.1,
-        	maxDeceleration: 1.2,
+			
+			maxDeceleration: 1.2,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
@@ -245,7 +249,8 @@
 	    description: 'Double-deck EMU designed to handle high passenger volumes. It combines high capacity, strong acceleration and numerous doors for rapid passenger exchange needed on the Line A.',
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
-        	maxAcceleration: 1.2,
+        	maxAcceleration: 1.1,
+			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 8.5, v2: 12.3, exponent: 4},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -302,6 +307,7 @@
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1,
+			
         	maxDeceleration: 1.2,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -356,7 +362,8 @@
 	    description: 'The replacement of the MI 84, this new generation EMU will increase capacity and accessibility of the RER B and adding a second floor on half of the cars.',
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
-        	maxAcceleration: 1.2,
+        	maxAcceleration: 1.15,
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 9.5, v2: 14, exponent: 4},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -414,6 +421,7 @@
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
         	maxAcceleration: 1,
+			accelerationCurve: { a0: 0.75, a1: 0.75, v1: 8, v2: 13, exponent: 2},
         	maxDeceleration: 1.05,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -469,7 +477,8 @@
 	    description: 'The new generation of double-deck EMU; high capacity and strong acceleration allow it to combine suburban-rail performance with intensive urban operations. Exists in 6 and 7 cars configurations.',
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
-        	maxAcceleration: 1.18,
+        	maxAcceleration: 1.1,
+			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 9.8, v2: 14, exponent: 5},
         	maxDeceleration: 1.15,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -526,6 +535,7 @@
 	    stats: {
         	maxSpeed: 38.89,             // m/s (≈140 kph)
         	maxAcceleration: 1,
+			accelerationCurve: { a0: 1, a1: 1, v1: 10.5, v2: 13.9, exponent: 6},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -581,6 +591,7 @@
 	    stats: {
         	maxSpeed: 44.44,             // m/s (≈160 kph)
         	maxAcceleration: 0.79,
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 7.5, v2: 10.7, exponent: 2.5},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -637,6 +648,7 @@
 	    stats: {
         	maxSpeed: 27.78,             // m/s (≈100 kph)
         	maxAcceleration: 1.1,
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 8, v2: 10.5, exponent: 3},
         	maxDeceleration: 1.2,
         	maxLateralAcceleration: 0.7,
         	maxCantMm: 60,
@@ -692,6 +704,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxAcceleration: 1.2,
+			accelerationCurve: { a0: 1.2, a1: 1.2, v1: 8, v2: 11, exponent: 3},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 0.7,
         	maxCantMm: 60,
@@ -748,6 +761,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.35,
+			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 16, exponent: 6},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
