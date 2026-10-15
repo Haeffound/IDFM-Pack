@@ -111,7 +111,7 @@
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
-        	maxSlopePercentage: 8,
+        	maxSlopePercentage: 12,
         	maxSpeedLocalStation: 22.22, // m/s (≈80 kph) because all stations have platform screens doors
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
@@ -158,7 +158,7 @@
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
-        	maxSlopePercentage: 8,
+        	maxSlopePercentage: 12,
         	maxSpeedLocalStation: 22.22, // m/s (≈80 kph) because all stations have platform screens doors
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
@@ -765,7 +765,7 @@
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
-        	maxSlopePercentage: 8,
+        	maxSlopePercentage: 9,
         	maxSpeedLocalStation: 19.44, // m/s (≈70 kph) because all stations have platform screens doors
         	crossoverSpeed: 6.95,        // m/s (≈25 kph)
         	yardSpeedLimit: 4.16,        // m/s (≈15 kph)
