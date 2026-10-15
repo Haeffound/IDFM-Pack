@@ -9,7 +9,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
             maxAcceleration: 0.9,
-			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 8, v2: 12.5, exponent: 2.5},
+			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 7.5, v2: 14.5, exponent: 2},
             maxDeceleration: 0.98,
             maxLateralAcceleration: 1.00,
         	maxLateralAcceleration: 0.9,
@@ -58,7 +58,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxAcceleration: 0.95,
-			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 8.5, v2: 13.5, exponent: 3},
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 8, v2: 15, exponent: 2.5},
         	maxDeceleration: 1.1,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -106,7 +106,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.25,
-			accelerationCurve: { a0: 1.25, a1: 1.25, v1: 9, v2: 13.3, exponent: 4.5},
+			accelerationCurve: { a0: 1.25, a1: 1.25, v1: 9, v2: 15.5, exponent: 5},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -153,7 +153,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.3,
-			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 15, exponent: 5},
+			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 17, exponent: 6},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -201,7 +201,7 @@
 	    stats: {
         	maxSpeed: 30.6,             // m/s (≈110 kph)
         	maxAcceleration: 1.1,
-			
+			accelerationCurve: { a0: 1.2, a1: 1.15, v1: 12.5, v2: 22, exponent: 2},
 			maxDeceleration: 1.2,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -250,7 +250,7 @@
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1.1,
-			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 8.5, v2: 12.3, exponent: 4},
+			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 9, v2: 15, exponent: 4},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -307,7 +307,7 @@
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1,
-			
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 13.5, v2: 15.5, exponent: 1.3},
         	maxDeceleration: 1.2,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -363,7 +363,7 @@
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1.15,
-			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 9.5, v2: 14, exponent: 4},
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 10.5, v2: 17, exponent: 4},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -397,7 +397,6 @@
         	stationMaintenanceCostPerYear: 160_000,
         	tphLimit: 40,
 	    },
-
 	    compatibleTrackTypes: ['mi20', 'mi84', 'mi09', 'z2n', 'rerng', 'francilien', 'r2n'],
 	    appearance: {color: '#3C91DC', roofStyle: 'rounded', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 15_000_000,
@@ -413,7 +412,7 @@
 		minor: 30,
     	},
 	})
-	/// RER C+TRANSILIEN
+	/// RER C
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'z2n',
 	    name: 'Z 2N',
@@ -421,7 +420,7 @@
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
         	maxAcceleration: 1,
-			accelerationCurve: { a0: 0.75, a1: 0.75, v1: 8, v2: 13, exponent: 2},
+			accelerationCurve: { a0: 0.75, a1: 0.75, v1: 11, v2: 14, exponent: 1.5},
         	maxDeceleration: 1.05,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -478,7 +477,7 @@
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
         	maxAcceleration: 1.1,
-			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 9.8, v2: 14, exponent: 5},
+			accelerationCurve: { a0: 1.18, a1: 1.18, v1: 10.5, v2: 17.5, exponent: 5},
         	maxDeceleration: 1.15,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -535,7 +534,7 @@
 	    stats: {
         	maxSpeed: 38.89,             // m/s (≈140 kph)
         	maxAcceleration: 1,
-			accelerationCurve: { a0: 1, a1: 1, v1: 10.5, v2: 13.9, exponent: 6},
+			accelerationCurve: { a0: 1, a1: 1, v1: 13, v2: 15, exponent: 6},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -591,7 +590,7 @@
 	    stats: {
         	maxSpeed: 44.44,             // m/s (≈160 kph)
         	maxAcceleration: 0.79,
-			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 7.5, v2: 10.7, exponent: 2.5},
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 10.5, v2: 14.5, exponent: 2},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -648,7 +647,7 @@
 	    stats: {
         	maxSpeed: 27.78,             // m/s (≈100 kph)
         	maxAcceleration: 1.1,
-			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 8, v2: 10.5, exponent: 3},
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 8.5, v2: 14, exponent: 3},
         	maxDeceleration: 1.2,
         	maxLateralAcceleration: 0.7,
         	maxCantMm: 60,
@@ -704,7 +703,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxAcceleration: 1.2,
-			accelerationCurve: { a0: 1.2, a1: 1.2, v1: 8, v2: 11, exponent: 3},
+			accelerationCurve: { a0: 1.2, a1: 1.2, v1: 8.3, v2: 13.9, exponent: 3},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 0.7,
         	maxCantMm: 60,
@@ -761,7 +760,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.35,
-			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 16, exponent: 6},
+			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 17, exponent: 6},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
