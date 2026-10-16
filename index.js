@@ -106,7 +106,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.25,
-			accelerationCurve: { a0: 1.25, a1: 1.25, v1: 11, v2: 15, exponent: 1.4},
+			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 11, v2: 15, exponent: 1.4},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -153,7 +153,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.3,
-			accelerationCurve: { a0: 1.35, a1: 1.35, v1: 12, v2: 17, exponent: 1.3},
+			accelerationCurve: { a0: 1.35, a1: 1.35, v1: 8.3, v2: 14, exponent: 1.6},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -534,7 +534,7 @@
 	    stats: {
         	maxSpeed: 38.89,             // m/s (≈140 kph)
         	maxAcceleration: 1,
-			accelerationCurve: { a0: 1, a1: 1, v1: 13, v2: 19, exponent: 1.08},
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 14, v2: 18, exponent: 1.15},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -759,7 +759,7 @@
 	    description: 'VAL is a compact, fully automated rubber-tyred transit system, combining high frequency, strong acceleration and flexible alignment for dedicated urban and airport links.',
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
-        	maxAcceleration: 1.35,
+        	maxAcceleration: 1.3,
 			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 17, exponent: 5},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 0.9,
