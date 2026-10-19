@@ -7,10 +7,10 @@
 	    name: 'MF Track',
 	    description: 'Tracks for all MF métros.',
 	    stats: {
-        	maxSpeed: 22.22,             // m/s (≈80 kph)
-            maxAcceleration: 0.9,
-            maxDeceleration: 0.98,
-        	maxLateralAcceleration: 0.9,
+			maxSpeed: 22.22,             // m/s (≈80 kph)
+			maxAcceleration: 0.9,
+			maxDeceleration: 0.98,
+			maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
         	maxSlopePercentage: 5.5,
@@ -40,7 +40,7 @@
         	carOperationalCostPerHour: 1_000,
         	trackMaintenanceCostPerMeter: 260,
         	stationMaintenanceCostPerYear: 200_000,
-        	tphLimit: 40,
+        	tphLimit: 60,
 	    },
 	    compatibleTrackTypes: ['heavy-metro'],
 	    appearance: { color: '#00C4B3', roofStyle: 'rounded', bodyColor: '#AEB0AD'},
@@ -54,10 +54,10 @@
 	    name: 'MF 77',
 	    description: 'Uses MF tracks. A classic steel-wheel Paris Metro train designed for long suburban runs. Introduced in 1978, it offers high passenger capacity and good performance compared to previous boxy trains.',
 	    stats: {
-        	maxSpeed: 19.44,             // m/s (≈70 kph)
-            maxAcceleration: 0.89,
-			accelerationCurve: { a0: 0.89, a1: 0.89, v1: 12.5, v2: 18, exponent: 2.4}, //not definitive
-            maxDeceleration: 1,
+			maxSpeed: 19.44,             // m/s (≈70 kph)
+			maxAcceleration: 0.89,
+			accelerationCurve: { a0: 0.89, a1: 0.89, v1: 12.5, v2: 16, exponent: 2.6},
+			maxDeceleration: 1,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
@@ -79,16 +79,16 @@
         	doorsPerCarPerSide: 3,
         	carLength: 15.48,
         	trainWidth: 2.47,
-        	minStationLength: 78,
-        	maxStationLength: 84,
+        	minStationLength: 1,
+        	maxStationLength: 1,
         	carCost: 650_000,
-        	baseTrackCost: 27_000,
-        	baseStationCost: 65_000_000,
+        	baseTrackCost: 100_000_000,
+        	baseStationCost: 1_000_000_000,
         	trainOperationalCostPerHour: 340,
         	carOperationalCostPerHour: 30,
-        	trackMaintenanceCostPerMeter: 260,
-        	stationMaintenanceCostPerYear: 200_000,
-        	tphLimit: 40,
+        	trackMaintenanceCostPerMeter: 1_000,
+        	stationMaintenanceCostPerYear: 200_000_000,
+        	tphLimit: 30,
 	    },
 	    compatibleTrackTypes: ['mf77', 'heavy-metro'],
 	    appearance: { color: '#00C4B3', roofStyle: 'boxy', bodyColor: '#AEB0AD'},
@@ -104,7 +104,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
             maxAcceleration: 0.9,
-			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 7.5, v2: 14.5, exponent: 2}, //not definitive
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 8.5, v2: 14.5, exponent: 2},
             maxDeceleration: 0.98,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -130,13 +130,13 @@
         	minStationLength: 78,
         	maxStationLength: 84,
         	carCost: 920_000,
-        	baseTrackCost: 27_000,
-        	baseStationCost: 65_000_000,
+        	baseTrackCost: 100_000_000,
+        	baseStationCost: 1_000_000_000,
         	trainOperationalCostPerHour: 300,
         	carOperationalCostPerHour: 26,
-        	trackMaintenanceCostPerMeter: 260,
-        	stationMaintenanceCostPerYear: 200_000,
-        	tphLimit: 40,
+        	trackMaintenanceCostPerMeter: 1_000,
+        	stationMaintenanceCostPerYear: 200_000_000,
+        	tphLimit: 38,
 	    },
 	    compatibleTrackTypes: ['mf01', 'heavy-metro'],
 	    appearance: { color: '#00C4B3', roofStyle: 'rounded', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2 },
@@ -152,7 +152,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxAcceleration: 0.95,
-			accelerationCurve: { a0: 0.95, a1: 0.95, v1: 8, v2: 15, exponent: 2}, //not definitive
+			accelerationCurve: { a0: 0.95, a1: 0.95, v1: 10, v2: 16, exponent: 1.8},
         	maxDeceleration: 1.1,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -178,12 +178,12 @@
         	minStationLength: 78,
         	maxStationLength: 84,
         	carCost: 1_400_000,
-        	baseTrackCost: 27_000,
-        	baseStationCost: 65_000_000,
+        	baseTrackCost: 100_000_000,
+        	baseStationCost: 1_000_000_000,
         	trainOperationalCostPerHour: 260,
         	carOperationalCostPerHour: 23,
-        	trackMaintenanceCostPerMeter: 260,
-        	stationMaintenanceCostPerYear: 200_000,
+        	trackMaintenanceCostPerMeter: 1_000,
+        	stationMaintenanceCostPerYear: 200_000_000,
         	tphLimit: 40,
 	    },
 	    compatibleTrackTypes: ['mf19', 'heavy-metro'],
@@ -200,7 +200,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.25,
-			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 11, v2: 15, exponent: 1.6}, //not definitive
+			accelerationCurve: { a0: 1.3, a1: 1.25, v1: 8.5, v2: 15, exponent: 1.7},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -247,7 +247,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.3,
-			accelerationCurve: { a0: 1.35, a1: 1.35, v1: 8.3, v2: 14, exponent: 1.5},
+			accelerationCurve: { a0: 1.35, a1: 1.3, v1: 8.5, v2: 16, exponent: 1.5},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -314,7 +314,7 @@
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1.1,
-			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 16.5, v2: 20, exponent: 1.4}, //not definitive
+			accelerationCurve: { a0: 1.1, a1: 1.1, v1: 15.5, v2: 18, exponent: 1.3},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -371,7 +371,7 @@
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1,
-			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 13.5, v2: 15.5, exponent: 1.6}, //not definitive
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 12.5, v2: 14.5, exponent: 1.5},
         	maxDeceleration: 1.2,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -427,7 +427,7 @@
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1.15,
-			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 13, v2: 18, exponent: 1.2}, //not definitive
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 13, v2: 18, exponent: 1.2},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -484,7 +484,7 @@
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
         	maxAcceleration: 1,
-			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 13, v2: 17.5, exponent: 1.5}, //not definitive
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 13.75, v2: 16.5, exponent: 1.5},
         	maxDeceleration: 1.05,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -541,7 +541,7 @@
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
         	maxAcceleration: 1.1,
-			accelerationCurve: { a0: 1.18, a1: 1.18, v1: 13.5, v2: 21.5, exponent: 1.1}, //not definitive
+			accelerationCurve: { a0: 1.18, a1: 1.18, v1: 13.5, v2: 22.5, exponent: 1.2},
         	maxDeceleration: 1.15,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -654,7 +654,7 @@
 	    stats: {
         	maxSpeed: 44.44,             // m/s (≈160 kph)
         	maxAcceleration: 0.83,
-			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 12.5, v2: 21.5, exponent: 1.3}, //not definitive
+			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 12.5, v2: 15.65, exponent: 1.2},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 1,
         	maxCantMm: 160,
@@ -711,7 +711,7 @@
 	    stats: {
         	maxSpeed: 27.78,             // m/s (≈100 kph)
         	maxAcceleration: 1.1,
-			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 8.5, v2: 14, exponent: 2.5},
+			accelerationCurve: { a0: 1.15, a1: 1.15, v1: 9.5, v2: 18, exponent: 2},
         	maxDeceleration: 1.2,
         	maxLateralAcceleration: 0.7,
         	maxCantMm: 60,
@@ -767,7 +767,7 @@
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxAcceleration: 1.2,
-			accelerationCurve: { a0: 1.2, a1: 1.2, v1: 8.3, v2: 13.9, exponent: 3},
+			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 8.3, v2: 13.9, exponent: 3},
         	maxDeceleration: 1.25,
         	maxLateralAcceleration: 0.7,
         	maxCantMm: 60,
@@ -824,7 +824,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.3,
-			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 17, exponent: 1.6}, //not definitive
+			accelerationCurve: { a0: 1.3, a1: 1.3, v1: 10, v2: 17, exponent: 1.6},
         	maxDeceleration: 1.35,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
