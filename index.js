@@ -200,7 +200,7 @@
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.25,
-			accelerationCurve: { a0: 1.3, a1: 1.25, v1: 8.5, v2: 15, exponent: 1.7},
+			accelerationCurve: { a0: 1.3, a1: 1.25, v1: 8.5, v2: 15, exponent: 1.6},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
