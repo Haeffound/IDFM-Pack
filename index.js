@@ -288,52 +288,22 @@
 	    maxOverpassSpan: 50,
 	});
 	/// GPE Metro
-	window.SubwayBuilderAPI.trains.registerTrainType({
+	window.SubwayBuilderAPI.trains.modifyTrainType('light-metro', {
 	    id: 'mr3v',
 	    name: 'MR3V/MR6V',
 	    description: 'The MR3V/MR6V is an automated steel-wheeled subway for the new Grand Paris Express lines 15-16-17. These three lines will be built to more modern standards. Exists in 3 and 6 cars configurations.',
 	    stats: {
         	maxSpeed: 30.6,             // m/s (≈110 kph)
-        	maxAcceleration: 1.1,
-			accelerationCurve: { a0: 1.2, a1: 1.15, v1: 12.5, v2: 22, exponent: 2},
-			maxDeceleration: 1.2,
-        	maxLateralAcceleration: 0.9,
-        	maxCantMm: 160,
-        	maxCantDeficiencyMm: 135,
         	maxSlopePercentage: 5.5,
         	maxSpeedLocalStation: 30.6,  // m/s (≈110 kph) because all stations have platform screens doors
-        	crossoverSpeed: 6.95,        // m/s (≈25 kph)
-        	yardSpeedLimit: 6.95,        // m/s (≈25 kph)
-        	stopTimeSeconds: 30,
-        	turnaroundTimeSeconds: 20,   // automatic metro
-        	minTurnRadius: 40,
-        	minStationTurnRadius: 500,
-        	parallelTrackSpacing: 3.58,
-        	trackClearance: 1.77,
         	minCars: 3,
         	maxCars: 6,
         	carsPerCarSet: 3,
-        	seatsPerCar: 30,
-        	doorsPerCarPerSide: 3,
-        	capacityPerCar: 200,
-        	carLength: 18,
-        	trainWidth: 2.8,
         	minStationLength: 60,
         	maxStationLength: 120,
-        	carCost: 920_000,
-        	baseTrackCost: 48_875,
-        	baseStationCost: 100_000_000,
-        	trainOperationalCostPerHour: 120,
-        	carOperationalCostPerHour: 18,
-        	trackMaintenanceCostPerMeter: 300,
-        	stationMaintenanceCostPerYear: 400_000,
-        	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['mr3v'],
+	    compatibleTrackTypes: ['light-metro'],
 	    appearance: {color: '#A50034', roofStyle: 'rounded', bodyColor: '#67B4E7', couplerWidthMultiplier: 2, catenary: true},
-	    portalCost: 15_000_000,
-	    rampCost: 5_000_000,
-	    maxOverpassSpan: 150,
 	});
 	// Paris RER&TRANSILIEN
 	/// RER A
