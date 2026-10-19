@@ -2,16 +2,110 @@
 (function () {
 	// Paris Metro
 	/// Rail Metro
+		window.SubwayBuilderAPI.trains.modifyTrainType('heavy-metro', {
+	    id: 'mftrack',
+	    name: 'MF Track',
+	    description: 'Tracks for all MF métros.',
+	    stats: {
+        	maxSpeed: 22.22,             // m/s (≈80 kph)
+            maxAcceleration: 0.9,
+            maxDeceleration: 0.98,
+        	maxLateralAcceleration: 0.9,
+        	maxCantMm: 160,
+        	maxCantDeficiencyMm: 135,
+        	maxSlopePercentage: 5.5,
+        	maxSpeedLocalStation: 8.5,   // m/s (≈30 kph)
+        	crossoverSpeed: 6.95,        // m/s (≈25 kph)
+        	yardSpeedLimit: 4.47,        // m/s (≈15 kph)
+        	stopTimeSeconds: 30,
+        	turnaroundTimeSeconds: 60,
+        	minTurnRadius: 40,
+        	minStationTurnRadius: 75,
+        	parallelTrackSpacing: 3.2,
+        	trackClearance: 1.2,
+        	minCars: 4,
+        	maxCars: 5,
+        	carsPerCarSet: 1,
+        	capacityPerCar: 1,
+        	seatsPerCar: 1,
+        	doorsPerCarPerSide: 1,
+        	carLength: 15.12,
+        	trainWidth: 2.4,
+        	minStationLength: 64,
+        	maxStationLength: 80,
+        	carCost: 100_000_000,
+        	baseTrackCost: 27_000,
+        	baseStationCost: 65_000_000,
+        	trainOperationalCostPerHour: 1_000,
+        	carOperationalCostPerHour: 1_000,
+        	trackMaintenanceCostPerMeter: 260,
+        	stationMaintenanceCostPerYear: 200_000,
+        	tphLimit: 40,
+	    },
+	    compatibleTrackTypes: ['heavy-metro'],
+	    appearance: { color: '#00C4B3', roofStyle: 'rounded', bodyColor: '#AEB0AD'},
+	    portalCost: 10_000_000,
+	    rampCost: 4_000_000,
+	    allowGradeCrossing: false,
+	    maxOverpassSpan: 50,
+	});
+	window.SubwayBuilderAPI.trains.registerTrainType({
+	    id: 'mf77',
+	    name: 'MF 77',
+	    description: 'Uses MF tracks. A classic steel-wheel Paris Metro train designed for long suburban runs. Introduced in 1978, it offers high passenger capacity and good performance compared to previous boxy trains.',
+	    stats: {
+        	maxSpeed: 19.44,             // m/s (≈70 kph)
+            maxAcceleration: 0.89,
+			accelerationCurve: { a0: 0.89, a1: 0.89, v1: 12.5, v2: 18, exponent: 2.4}, //not definitive
+            maxDeceleration: 1,
+        	maxLateralAcceleration: 0.9,
+        	maxCantMm: 160,
+        	maxCantDeficiencyMm: 135,
+        	maxSlopePercentage: 5.5,
+        	maxSpeedLocalStation: 8.5,   // m/s (≈30 kph)
+        	crossoverSpeed: 6.95,        // m/s (≈25 kph)
+        	yardSpeedLimit: 4.47,        // m/s (≈15 kph)
+        	stopTimeSeconds: 30,
+        	turnaroundTimeSeconds: 60,
+        	minTurnRadius: 40,
+        	minStationTurnRadius: 75,
+        	parallelTrackSpacing: 3.2,
+        	trackClearance: 1.2,
+        	minCars: 5,
+        	maxCars: 5,
+        	carsPerCarSet: 5,
+        	capacityPerCar: 144,
+        	seatsPerCar: 49,
+        	doorsPerCarPerSide: 3,
+        	carLength: 15.48,
+        	trainWidth: 2.47,
+        	minStationLength: 78,
+        	maxStationLength: 84,
+        	carCost: 650_000,
+        	baseTrackCost: 27_000,
+        	baseStationCost: 65_000_000,
+        	trainOperationalCostPerHour: 340,
+        	carOperationalCostPerHour: 30,
+        	trackMaintenanceCostPerMeter: 260,
+        	stationMaintenanceCostPerYear: 200_000,
+        	tphLimit: 40,
+	    },
+	    compatibleTrackTypes: ['mf77', 'heavy-metro'],
+	    appearance: { color: '#00C4B3', roofStyle: 'boxy', bodyColor: '#AEB0AD'},
+	    portalCost: 10_000_000,
+	    rampCost: 4_000_000,
+	    allowGradeCrossing: false,
+	    maxOverpassSpan: 50,
+	});
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'mf01',
 	    name: 'MF 01',
-	    description: 'A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, it features full-width gangways and refrigerated ventilation.',
+	    description: 'Uses MF tracks. A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, it features full-width gangways and refrigerated ventilation.',
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
             maxAcceleration: 0.9,
 			accelerationCurve: { a0: 0.9, a1: 0.9, v1: 7.5, v2: 14.5, exponent: 2}, //not definitive
             maxDeceleration: 0.98,
-            maxLateralAcceleration: 1.00,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
         	maxCantDeficiencyMm: 135,
@@ -44,7 +138,7 @@
         	stationMaintenanceCostPerYear: 200_000,
         	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['mf01', 'mf19'],
+	    compatibleTrackTypes: ['mf01', 'heavy-metro'],
 	    appearance: { color: '#00C4B3', roofStyle: 'rounded', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2 },
 	    portalCost: 10_000_000,
 	    rampCost: 4_000_000,
@@ -54,7 +148,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'mf19',
 	    name: 'MF 19',
-	    description: 'The latest generation of steel-wheel metro designed to replace several ageing Paris Metro fleets. Modular in length and energy-efficient with regenerative braking. Exists in 4 and 5 cars configurations.',
+	    description: 'Uses MF tracks. The latest generation of steel-wheel metro designed to replace several ageing Paris Metro fleets. Modular in length and energy-efficient with regenerative braking. Exists in 4 and 5 cars configurations.',
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxAcceleration: 0.95,
@@ -92,7 +186,7 @@
         	stationMaintenanceCostPerYear: 200_000,
         	tphLimit: 40,
 	    },
-	    compatibleTrackTypes: ['mf19', 'mf01'],
+	    compatibleTrackTypes: ['mf19', 'heavy-metro'],
 	    appearance: { color: '#00C4B3', roofStyle: 'rounded', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2 },
 	    portalCost: 10_000_000,
 	    rampCost: 4_000_000,
@@ -102,7 +196,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'mp89',
 	    name: 'MP 89',
-	    description: 'Rubber-tyred metro train existing in both automatic and manually driven versions. Its strong acceleration makes it particularly well suited to dense urban routes with closely spaced stations. Exists in 5 and 6 cars configurations.',
+	    description: 'Uses MP tracks. Rubber-tyred metro train existing in both automatic and manually driven versions. Its strong acceleration makes it particularly well suited to dense urban routes with closely spaced stations. Exists in 5 and 6 cars configurations.',
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.25,
@@ -140,7 +234,7 @@
         	stationMaintenanceCostPerYear: 250_000,
         	tphLimit: 35,
 	    },
-	    compatibleTrackTypes: ['mp89', 'mp14'],
+	    compatibleTrackTypes: ['mp89', 'mptrack'],
 	    appearance: {color: '#640082', roofStyle: 'rounded', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2 },
 	    portalCost: 10_000_000,
 	    rampCost: 4_000_000,
@@ -149,11 +243,11 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'mp14',
 	    name: 'MP 14',
-	    description: 'The latest generation of rubber-tyred metro trains in Paris, available in several train lengths and both automated and driver-operated versions. Its high-capacity configurations are designed for some of the busiest lines. Exists in 5, 6 and 8 cars configurations.',
+	    description: 'Uses MP tracks. The latest generation of rubber-tyred metro trains in Paris, available in several train lengths and both automated and driver-operated versions. Its high-capacity configurations are designed for some of the busiest lines. Exists in 5, 6 and 8 cars configurations.',
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.3,
-			accelerationCurve: { a0: 1.35, a1: 1.35, v1: 8.3, v2: 14, exponent: 1.6},
+			accelerationCurve: { a0: 1.35, a1: 1.35, v1: 8.3, v2: 14, exponent: 1.5},
         	maxDeceleration: 1.4,
         	maxLateralAcceleration: 0.9,
         	maxCantMm: 160,
@@ -187,7 +281,7 @@
         	stationMaintenanceCostPerYear: 250_000,
         	tphLimit: 42,
 	    },
-	    compatibleTrackTypes: ['mp14', 'mp89'],
+	    compatibleTrackTypes: ['mp14', 'mptrack'],
 	    appearance: {color: '#640082', roofStyle: 'boxy', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2 },
 	    portalCost: 10_000_000,
 	    rampCost: 4_000_000,
