@@ -849,7 +849,6 @@
 	    stats: {
         	maxSpeed: 27.78,             // m/s (≈100 kph)
         	maxLateralAcceleration: 0.7,
-        	maxSlopePercentage: 6,
         	stopTimeSeconds: 30,
         	turnaroundTimeSeconds: 60,
         	minCars: 4,
@@ -877,13 +876,10 @@
 	    name: 'Citadis X05',
 	    description: 'Use own tracks–5/7 cars. A modern tram designed for intensive urban operation in the suburbs.',
 	    stats: {
-        	maxSpeed: 19.44,             // m/s (≈70 kph)
-        	maxSlopePercentage: 6,
         	stopTimeSeconds: 20,
         	turnaroundTimeSeconds: 60,
         	minCars: 5,
         	maxCars: 7,
-        	carsPerCarSet: 1,
         	capacityPerCar: 45,
         	seatsPerCar: 12,
         	doorsPerCarPerSide: 1,
@@ -891,15 +887,12 @@
         	trainWidth: 2.65,
         	minStationLength: 36,
         	maxStationLength: 50,
-        	carCost: 800_000,
-        	baseTrackCost: 18_000,
-        	baseStationCost: 12_000_000,
-        	trainOperationalCostPerHour: 160,
-        	carOperationalCostPerHour: 22,
+        	carOperationalCostPerHour: 9,
 	    },
 	    appearance: {color: '#0055C8', roofStyle: 'rounded', bodyColor: '#BFC1BE', couplerWidthMultiplier: 2, catenary: true},
 	    portalCost: 4_000_000,
 	    rampCost: 2_000_000,
+	gradeCrossingSpeedLimitApproachDistance: 50,
 	});
 	// AIRVAL
 	window.SubwayBuilderAPI.trains.registerTrainType({
