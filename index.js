@@ -4,7 +4,7 @@
 	/// Metro Tracks
 		window.SubwayBuilderAPI.trains.modifyTrainType('heavy-metro', {
 		name: 'MP Track',
-		description: 'Tracks for all MP (rubber-tyre) métros. Do not run this as train',
+		description: 'Tracks for all MP (rubber-tyre) métros. Do not run this as train.',
 		stats: {
 			maxSpeed: 22.22,             // m/s (≈80 kph)
 			maxAcceleration: 1.3,
@@ -48,7 +48,7 @@
 		});
 		window.SubwayBuilderAPI.trains.modifyTrainType('light-metro', {
 		name: 'MF Track',
-		description: 'Tracks for all MF (traditionnal) métros. Do not run this as train',
+		description: 'Tracks for all MF (traditionnal) métros. Do not run this as train.',
 		stats: {
 			maxSpeed: 22.22,             // m/s (≈80 kph)
 			maxCantMm: 160,
@@ -87,7 +87,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mf77',
 		name: 'MF 77',
-		description: 'Uses MF tracks–5 cars configuration. Designed in 1979 for long suburban runs, it offers high passenger comfort and good performance compared to previous boxy trains.',
+		description: 'Uses MF tracks–5 cars. Designed in 1979 for long suburban runs, it offers high passenger comfort and good performance compared to previous boxy trains.',
 		stats: {
 			maxSpeed: 19.44,             // m/s (≈70 kph)
 			maxAcceleration: 0.89,
@@ -135,7 +135,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mf01',
 		name: 'MF 01',
-		description: 'Uses MF tracks–5 cars configuration. A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, with full-width gangways and refrigerated ventilation.',
+		description: 'Uses MF tracks–5 cars. A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, with full-width gangways and refrigerated ventilation.',
 		stats: {
 			maxSpeed: 19.44,             // m/s (≈70 kph)
 			maxAcceleration: 0.9,
@@ -183,7 +183,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mf19',
 		name: 'MF 19',
-		description: 'Uses MF tracks–4/5 cars configuration. The latest generation of steel-wheel metro designed to replace several ageing Paris Metro fleets.',
+		description: 'Uses MF tracks–4/5 cars. The latest generation of steel-wheel metro designed to replace several ageing Paris Metro fleets.',
 		stats: {
 			maxSpeed: 19.44,             // m/s (≈70 kph)
 			maxAcceleration: 0.95,
@@ -231,7 +231,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mp89',
 		name: 'MP 89',
-		description: 'Uses MP tracks–5/6 cars configuration. Rubber-tyred metro existing in both automatic and manually driven versions.',
+		description: 'Uses MP tracks–5/6 cars. Rubber-tyred metro existing in both automatic and manually driven versions.',
 		stats: {
 			maxSpeed: 22.22,             // m/s (≈80 kph)
 			maxAcceleration: 1.25,
@@ -278,7 +278,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mp14',
 		name: 'MP 14',
-		description: 'Uses MP tracks–5/6/8 cars configuration. New rubber-tyred metro with high-capacity, designed for the busiest lines.',
+		description: 'Uses MP tracks–5/6/8 cars. New rubber-tyred metro with high-capacity, designed for the busiest lines.',
 		stats: {
 			maxSpeed: 22.22,             // m/s (≈80 kph)
 			maxAcceleration: 1.3,
@@ -309,7 +309,6 @@
 			maxStationLength: 128,
 			baseTrackCost: 100_000_000_000,
 			baseStationCost: 100_000_000_000,
-			baseStationCost: 80_000_000,
 			trainOperationalCostPerHour: 120,
 			carOperationalCostPerHour: 28,
 			trackMaintenanceCostPerMeter: 300,
@@ -326,7 +325,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mr3v',
 		name: 'MR3V/MR6V',
-		description: '3/6 cars configuration. The MR3V/MR6V is an Alstom Metropolis subway for the Grand Paris Express lines 15-16-17-18.',
+		description: 'Use own tracks–3/6 cars. The MR3V/MR6V is an Alstom Metropolis subway for the Grand Paris Express lines 15-16-17-18.',
 		stats: {
 			maxSpeed: 30.06,             // m/s (≈110 kph)
 			maxAcceleration: 1.2,
@@ -375,7 +374,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'mi09',
 	    name: 'MI 09',
-	    description: 'Uses MI 09/1.5kV DC/25kV AC tracks. Double-decker EMU with 3 doubles doors per side EMU designed to handle the passenger volumes of RER A.',
+	    description: 'Uses MI 09/1.5kV DC/25kV AC tracks–5/10 cars. Double-decker EMU with 3 doubles doors per side EMU designed to handle the passenger volumes of RER A.',
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1.1,
@@ -405,8 +404,8 @@
         	minStationLength: 115,
         	maxStationLength: 230,
         	carCost: 3_800_000,
-        	baseTrackCost: 34_000,
-        	baseStationCost: 50_000_000,
+        	baseTrackCost: 45_000,
+        	baseStationCost: 70_000_000,
         	trainOperationalCostPerHour: 650,
         	carOperationalCostPerHour: 75,
         	trackMaintenanceCostPerMeter: 340,
@@ -432,7 +431,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'mi84',
 	    name: 'MI 84',
-	    description: 'Uses MI 84/1.5kV DC/25kV AC tracks. EMU designed to operate seamlessly across both RATP and SNCF networks on the small gabarit of the RER B tunnel.',
+	    description: 'Uses MI 84/1.5kV DC/25kV AC tracks–4/8 cars. EMU designed to operate seamlessly across both RATP and SNCF networks on the small gabarit of the RER B tunnel.',
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1,
@@ -462,8 +461,8 @@
         	minStationLength: 110,
         	maxStationLength: 220,
         	carCost: 2_400_000,
-        	baseTrackCost: 32_000,
-        	baseStationCost: 42_000_000,
+        	baseTrackCost: 36_500,
+			baseStationCost: 55_000_000,
         	trainOperationalCostPerHour: 580,
         	carOperationalCostPerHour: 55,
         	trackMaintenanceCostPerMeter: 320,
@@ -488,7 +487,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'mi20',
 	    name: 'MI 20',
-	    description: 'Uses MI 84/1.5kV DC/25kV AC tracks. This new generation EMU will increase capacity of the RER B by adding a second floor on half of the cars.',
+	    description: 'Uses MI 84/1.5kV DC/25kV AC tracks–7/14 cars. This new generation EMU will increase capacity of the RER B by adding a second floor on half of the cars.',
 	    stats: {
         	maxSpeed: 33.33,             // m/s (≈120 kph)
         	maxAcceleration: 1.15,
@@ -518,8 +517,8 @@
         	minStationLength: 110,
         	maxStationLength: 220,
         	carCost: 2_790_000,
-        	baseTrackCost: 32_000,
-        	baseStationCost: 42_000_000,
+        	baseTrackCost: 36_500,
+        	baseStationCost: 55_000_000,
         	trainOperationalCostPerHour: 550,
         	carOperationalCostPerHour: 55,
         	trackMaintenanceCostPerMeter: 320,
@@ -544,7 +543,7 @@
 	/// SNCF TRACKS
 	window.SubwayBuilderAPI.trains.modifyTrainType('commuter-rail', {
 	    name: 'Train Track 25kV AC',
-	    description: '1435 mm Tracks, with 25kV AC overhead electrification (North and East of France).',
+	    description: '1435 mm Tracks, with 25kV AC overhead electrification (North and East of France). Do not run this as train.',
 	    stats: {
 			maxSpeed: 44.44,             // m/s (≈160 kph)
         	maxSlopePercentage: 4,
@@ -573,10 +572,16 @@
         	tphLimit: 30,
 	    },
 	    appearance: { color: '#FF9800', catenary: true},
+		gradeCrossingTphLimit: {
+		highway: null,
+		major: 14,
+		medium: 20,
+		minor: 30,
+    	},
 	});
 	window.SubwayBuilderAPI.trains.modifyTrainType('commuter-rail-diesel', {
 	    name: 'Train Track 1.5kV DC',
-	    description: '1435 mm Tracks, with 1.5kV DC overhead electrification (South and West of France).',
+	    description: '1435 mm Tracks, with 1.5kV DC overhead electrification (South and West of France). Do not run this as train.',
 	    stats: {
 			maxSpeed: 44.44,             // m/s (≈160 kph)
         	maxSlopePercentage: 4,
@@ -605,12 +610,18 @@
         	tphLimit: 30,
 	    },
 	    appearance: { color: '#00C853', catenary: true},
+	    gradeCrossingTphLimit: {
+		highway: null,
+		major: 14,
+		medium: 20,
+		minor: 30,
+    	},
 	});
 	// TRANSILIEN + RER C/D/E
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'z2n',
 	    name: 'Z 2N',
-	    description: 'Uses 1.5kV DC/25kV AC tracks. A family of double-decker EMU, adapted to longer distances between stations. Exists in 4 and 5 cars configurations',
+	    description: 'Uses 1.5kV DC/25kV AC tracks–4/5–8/10 cars. A family of double-decker EMU, adapted to longer distances between stations.',
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
         	maxAcceleration: 1,
@@ -666,7 +677,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'rerng',
 	    name: 'RER NG',
-	    description: 'Uses 1.5kV DC/25kV AC tracks. The new generation of double-deck EMU, accesible and modern. Exists in 6 and 7 cars configurations.',
+	    description: 'Uses 1.5kV DC/25kV AC tracks–6/7–12/14 cars. The new generation of double-deck EMU, accesible and modern.',
 	    stats: {
         	maxSpeed: 38.90,             // m/s (≈140 kph)
         	maxAcceleration: 1.1,
@@ -722,7 +733,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'francilien',
 	    name: 'Francilien',
-	    description: 'Uses 1.5kV DC/25kV AC tracks. Modern suburban EMU recognizable by its unusually wide body and spacious interior. Exists in 7 and 8 cars configurations',
+	    description: 'Uses 1.5kV DC/25kV AC tracks–7/8–14/16 cars. Modern suburban EMU recognizable by its unusually wide body and spacious interior.',
 	    stats: {
         	maxSpeed: 38.89,             // m/s (≈140 kph)
         	maxAcceleration: 1,
@@ -778,7 +789,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'r2n',
 	    name: 'Regio 2N',
-	    description: 'Uses 1.5kV DC/25kV AC tracks. The Regio 2N is a high-capacity EMU designed for the busy suburban network. It can run in multiple unit of up to 3 coupled EMU.',
+	    description: 'Uses 1.5kV DC/25kV AC tracks–8–16–24 cars. The Regio 2N is a high-capacity EMU designed for the busy suburban network.',
 	    stats: {
         	maxSpeed: 44.44,             // m/s (≈160 kph)
         	maxAcceleration: 0.83,
@@ -834,7 +845,7 @@
 	// LIGHT RAIL
 		window.SubwayBuilderAPI.trains.modifyTrainType('light-rail', {
 	    name: 'Dualis',
-	    description: 'Uses Dualis/Citadis/25kV AC tracks.A versatile tram-train designed to operate both on conventional railway and tramway sections. Available in 4 and 6 cars',
+	    description: 'Uses Dualis/Citadis/25kV AC tracks–4/6 cars. A versatile tram-train designed to operate both on the SNCF network and tramway tracks.',
 	    stats: {
         	maxSpeed: 27.78,             // m/s (≈100 kph)
         	maxLateralAcceleration: 0.7,
@@ -864,7 +875,7 @@
 	});
 		window.SubwayBuilderAPI.trains.modifyTrainType('tram', {
 	    name: 'Citadis X05',
-	    description: 'A modern tram designed for intensive urban operation. Exists in different lengths for higher capacity corridors.',
+	    description: 'Use own tracks–5/7 cars. A modern tram designed for intensive urban operation in the suburbs.',
 	    stats: {
         	maxSpeed: 19.44,             // m/s (≈70 kph)
         	maxSlopePercentage: 6,
@@ -894,7 +905,7 @@
 	window.SubwayBuilderAPI.trains.registerTrainType({
 	    id: 'val',
 	    name: 'VAL 206/208',
-	    description: 'Compact, automated rubber-tyred transit system for dedicated urban and airport links.',
+	    description: 'Use own tracks. Compact, automated rubber-tyred transit system for dedicated urban and airport links.',
 	    stats: {
         	maxSpeed: 22.22,             // m/s (≈80 kph)
         	maxAcceleration: 1.3,
