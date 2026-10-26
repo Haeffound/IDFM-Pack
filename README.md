@@ -23,21 +23,21 @@ Create lines with the tracks rails\&stations, then configure the lines with the 
 
 |Name|Description|Track Type|Top Speed (km/h)|Capacity per carriage|Carriage per consist|
 |-|-|-|-|-|-|
-|MI 09|Better tph on MI 09 tracks (automatic pilot)|MI 09/1.5kV DC/25kV AC|120|345|5–10|
-|MI 84||MI 84/1.5kV DC/25kV AC|120|212|4–8|
-|MI 20|Generic Nishitetsu commuter EMU for Tenjin-Omuta Line 3-6 car local and express services. Manufacturer: Kawasaki Heavy Industries / Nippon Sharyo.|MI 84/1.5kV DC/25kV AC|120|152|7–14|
-|Z 2N|Nishitetsu 1000 series tram/interurban profile for 2-3 car operation. Manufacturer: Nippon Sharyo.|1.5kV DC/25kV AC|140|400|4/5–8/10|
-|RER NG|Fukuoka City Subway 2000 series 6-car train for Airport and Hakozaki Line services. Manufacturer: Kawasaki Heavy Industries.|1.5kV DC/25kV AC|140|260|6/7–12/14|
-|Francilien|Fukuoka City Subway 3000 series linear-motor train for Nanakuma Line services. Manufacturer: Hitachi.|1.5kV DC/25kV AC|140|132|7/8–14/16|
-|R 2N|JR Kyushu 303 series commuter EMU for Chikuhi Line and Fukuoka Subway through services. Manufacturer: Kinki Sharyo.|1.5kV DC/25kV AC|160|130|8–16–24|
+|MI 09|Better tph on MI 09 tracks|MI 09/1.5kV DC/25kV AC|120|345|5–10|
+|MI 84|Interoperable material compatible with everything|MI 84/1.5kV DC/25kV AC|120|212|4–8|
+|MI 20|Replacement for the MI 84 with more capacity|MI 84/1.5kV DC/25kV AC|120|152|7–14|
+|Z 2N|Familly of double-decker improved over the years|1.5kV DC/25kV AC|140|400|4/5–8/10|
+|RER NG|Higher capacity and acceleration for newer RER lines|1.5kV DC/25kV AC|140|260|6/7–12/14|
+|Francilien|Recognizable by its wide rounded body, the most populous familly of trains in Paris|1.5kV DC/25kV AC|140|132|7/8–14/16|
+|R 2N|High-Capacity double-decker for longer distance stops|1.5kV DC/25kV AC|160|130|8–16–24|
 
 #### Light Rail (3)
 
 |Name|Description|Track Type|Top Speed (km/h)|Capacity per carriage|Carriage per consist|
 |-|-|-|-|-|-|
-|Dualis|Hiroden 5100 series Green Mover Max low-floor articulated tram. Manufacturer: Kinki Sharyo / Mitsubishi Heavy Industries / Toyo Denki.|25kV AC/Citadis|100|64|4/6|
-|Citadis|Hiroden 1900 series single-car tram, rebuilt from former Kyoto streetcar stock. Manufacturer: Naniwa Koki.|Citadis|70|45|5/7|
-|VAL 208|Hiroden 650 series heritage single-car tram. Manufacturer: Kisha Seizo.|VAL|80|100|2/4|
+|Dualis|Versatile tram-train with fully low-floor disposition|25kV AC/Citadis|100|64|4/6|
+|Citadis|Modern tram for intensive urban operations|Citadis|70|45|5/7|
+|VAL 208|Rubber-type automated people mover|VAL|80|100|2/4|
 
 
 
