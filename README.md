@@ -23,13 +23,13 @@ Create lines with the tracks rails\&stations, then configure the lines with the 
 
 |Name|Description|Track Type|Top Speed (km/h)|Capacity per carriage|Carriage per consist|
 |-|-|-|-|-|-|
-|MI 09|Better tph on MI 09 tracks (automatic pilot)|MI 09/1.5kV DC/25kV AC|120|345|5—10|
-|MI 84||MI 84/1.5kV DC/25kV AC|120|212|4—8|
-|MI 20|Generic Nishitetsu commuter EMU for Tenjin-Omuta Line 3-6 car local and express services. Manufacturer: Kawasaki Heavy Industries / Nippon Sharyo.|MI 84/1.5kV DC/25kV AC|120|152|7—14|
-|Z 2N|Nishitetsu 1000 series tram/interurban profile for 2-3 car operation. Manufacturer: Nippon Sharyo.|1.5kV DC/25kV AC|140|400|4/5—8/10|
-|RER NG|Fukuoka City Subway 2000 series 6-car train for Airport and Hakozaki Line services. Manufacturer: Kawasaki Heavy Industries.|1.5kV DC/25kV AC|140|260|6/7—12/14|
-|Francilien|Fukuoka City Subway 3000 series linear-motor train for Nanakuma Line services. Manufacturer: Hitachi.|1.5kV DC/25kV AC|140|132|7/8—14/16|
-|R 2N|JR Kyushu 303 series commuter EMU for Chikuhi Line and Fukuoka Subway through services. Manufacturer: Kinki Sharyo.|1.5kV DC/25kV AC|160|130|8—16—24|
+|MI 09|Better tph on MI 09 tracks (automatic pilot)|MI 09/1.5kV DC/25kV AC|120|345|5–10|
+|MI 84||MI 84/1.5kV DC/25kV AC|120|212|4–8|
+|MI 20|Generic Nishitetsu commuter EMU for Tenjin-Omuta Line 3-6 car local and express services. Manufacturer: Kawasaki Heavy Industries / Nippon Sharyo.|MI 84/1.5kV DC/25kV AC|120|152|7–14|
+|Z 2N|Nishitetsu 1000 series tram/interurban profile for 2-3 car operation. Manufacturer: Nippon Sharyo.|1.5kV DC/25kV AC|140|400|4/5–8/10|
+|RER NG|Fukuoka City Subway 2000 series 6-car train for Airport and Hakozaki Line services. Manufacturer: Kawasaki Heavy Industries.|1.5kV DC/25kV AC|140|260|6/7–12/14|
+|Francilien|Fukuoka City Subway 3000 series linear-motor train for Nanakuma Line services. Manufacturer: Hitachi.|1.5kV DC/25kV AC|140|132|7/8–14/16|
+|R 2N|JR Kyushu 303 series commuter EMU for Chikuhi Line and Fukuoka Subway through services. Manufacturer: Kinki Sharyo.|1.5kV DC/25kV AC|160|130|8–16–24|
 
 #### Light Rail (3)
 
