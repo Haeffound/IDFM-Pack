@@ -44,5 +44,3 @@ Create lines with the tracks rails\&stations, then configure the lines with the 
 <tr><th>VAL 208</th><th>Rubber-type automated people mover</th><th>VAL</th><th>80</th><th>100</th><th>2/4</th></tr>
 
 </table>
-
-Enjoy Paris!
