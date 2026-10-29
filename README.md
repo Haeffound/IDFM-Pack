@@ -42,7 +42,6 @@ Create lines with the tracks rails\&stations, then configure the lines with the 
 <tr><th>Dualis</th><th>Versatile tram-train with fully low-floor disposition</th><th>25kV AC/Citadis</th><th>100</th><th>64</th><th>4/6</th></tr>
 <tr><th>Citadis</th><th>Modern tram for intensive urban operations</th><th>Citadis</th><th>70</th><th>45</th><th>5/7</th></tr>
 <tr><th>VAL 208</th><th>Rubber-type automated people mover</th><th>VAL</th><th>80</th><th>100</th><th>2/4</th></tr>
-<tr></tr>
 
 </table>
 
