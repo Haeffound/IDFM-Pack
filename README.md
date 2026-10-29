@@ -10,34 +10,40 @@ Create lines with the tracks rails\&stations, then configure the lines with the 
 
 #### Métro (6)
 
-|Name|Description|Track Type|Top Speed (km/h)|Capacity per carriage|Carriage per consist|
-|-|-|-|-|-|-|
-|MF 77|Designed in 1979 for long suburban runs, it offers high passenger comfort and good performance compared to previous boxy trains|MF|70|144|5|
-|MF 01|A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, with full-width gangways and refrigerated ventilation|MF|70|158|5|
-|MF 19|The latest generation of steel-wheel metro designed to replace several ageing Paris Metro fleets|MF|70|161|4/6|
-|MP 89|Rubber-tyred metro existing in both automatic and manually driven versions|MP|80|158|5/6|
-|MP 14|New rubber-tyred metro with high-capacity, designed for the busiest lines|MP|80|160|5/6/8|
-|MR3V/MR6V|The MR3V/MR6V is an Alstom Metropolis subway for the Grand Paris Express lines 15-16-17-18|MR|110|166|3/6|
+<table>
+<tr><th>Name</th><th>Description</th><th>Track Type</th><th>Top Speed (km/h)</th><th>Capacity per carriage</th><th>Carriage per consist</th><th></th></tr>
+<tr><th>MF 77</th><th>Designed in 1979 for long suburban runs, it offers high passenger comfort and good performance compared to previous boxy trains</th><th>MF</th><th>70</th><th>144</th><th>5</th><th></th></tr>
+<tr><th>MF 01</th><th>A modern steel-wheel metro designed for Paris’s historic lines. Comfortable and efficient, with full-width gangways and refrigerated ventilation</th><th>MF</th><th>70</th><th>158</th><th>5</th><th></th></tr>
+<tr><th>MF 19</th><th>The latest generation of steel-wheel metro designed to replace several ageing Paris Metro fleets</th><th>MF</th><th>70</th><th>161</th><th>4/6</th><th></th></tr>
+<tr><th>MP 89</th><th>Rubber-tyred metro existing in both automatic and manually driven versions</th><th>MP</th><th>80</th><th>158</th><th>5/6</th><th></th></tr>
+<tr><th>MP 14</th><th>New rubber-tyred metro with high-capacity, designed for the busiest lines</th><th>MP</th><th>80</th><th>160</th><th>5/6/8</th><th></th></tr>
+<tr><th>MR3V/MR6V</th><th>The MR3V/MR6V is an Alstom Metropolis subway for the Grand Paris Express lines 15-16-17-18</th><th>MR</th><th>110</th><th>166</th><th>3/6</th><th></th></tr>
+
+</table>
 
 #### RER\&TRANSILIEN (7)
 
-|Name|Description|Track Type|Top Speed (km/h)|Capacity per carriage|Carriage per consist|
-|-|-|-|-|-|-|
-|MI 09|Better tph on MI 09 tracks|MI 09/1.5kV DC/25kV AC|120|345|5–10|
-|MI 84|Interoperable material compatible with everything|MI 84/1.5kV DC/25kV AC|120|212|4–8|
-|MI 20|Replacement for the MI 84 with more capacity|MI 84/1.5kV DC/25kV AC|120|152|7–14|
-|Z 2N|Familly of double-decker improved over the years|1.5kV DC/25kV AC|140|400|4/5–8/10|
-|RER NG|Higher capacity and acceleration for newer RER lines|1.5kV DC/25kV AC|140|260|6/7–12/14|
-|Francilien|Recognizable by its wide rounded body, the most populous familly of trains in Paris|1.5kV DC/25kV AC|140|132|7/8–14/16|
-|R 2N|High-Capacity double-decker for longer distance stops|1.5kV DC/25kV AC|160|130|8–16–24|
+<table>
+<tr><th>Name</th><th>Description</th><th>Track Type</th><th>Top Speed (km/h)</th><th>Capacity per carriage</th><th>Carriage per consist</th><th></th></tr>
+<tr><th>MI 09</th><th>Better tph on MI 09 tracks</th><th>MI 09/1.5kV DC/25kV AC</th><th>120</th><th>345</th><th>5–10</th><th></th></tr>
+<tr><th>MI 84</th><th>Interoperable material compatible with everything</th><th>MI 84/1.5kV DC/25kV AC</th><th>120</th><th>212</th><th>4–8</th><th></th></tr>
+<tr><th>MI 20</th><th>Replacement for the MI 84 with more capacity</th><th>MI 84/1.5kV DC/25kV AC</th><th>120</th><th>152</th><th>7–14</th><th></th></tr>
+<tr><th>Z 2N</th><th>Familly of double-decker improved over the years</th><th>1.5kV DC/25kV AC</th><th>140</th><th>400</th><th>4/5–8/10</th><th></th></tr>
+<tr><th>RER NG</th><th>Higher capacity and acceleration for newer RER lines</th><th>1.5kV DC/25kV AC</th><th>140</th><th>260</th><th>6/7–12/14</th><th></th></tr>
+<tr><th>Francilien</th><th>Recognizable by its wide rounded body, the most populous familly of trains in Paris</th><th>1.5kV DC/25kV AC</th><th>140</th><th>132</th><th>7/8–14/16</th><th></th></tr>
+<tr><th>R 2N</th><th>High-Capacity double-decker for longer distance stops</th><th>1.5kV DC/25kV AC</th><th>160</th><th>130</th><th>8–16–24</th><th></th></tr>
+
+</table>
 
 #### Light Rail (3)
 
-|Name|Description|Track Type|Top Speed (km/h)|Capacity per carriage|Carriage per consist|
-|-|-|-|-|-|-|
-|Dualis|Versatile tram-train with fully low-floor disposition|25kV AC/Citadis|100|64|4/6|
-|Citadis|Modern tram for intensive urban operations|Citadis|70|45|5/7|
-|VAL 208|Rubber-type automated people mover|VAL|80|100|2/4|
+<table>
+<tr><th>Name</th><th>Description</th><th>Track Type</th><th>Top Speed (km/h)</th><th>Capacity per carriage</th><th>Carriage per consist</th><th></th></tr>
+<tr><th>Dualis</th><th>Versatile tram-train with fully low-floor disposition</th><th>25kV AC/Citadis</th><th>100</th><th>64</th><th>4/6</th><th></th></tr>
+<tr><th>Citadis</th><th>Modern tram for intensive urban operations</th><th>Citadis</th><th>70</th><th>45</th><th>5/7</th><th></th></tr>
+<tr><th>VAL 208</th><th>Rubber-type automated people mover</th><th>VAL</th><th>80</th><th>100</th><th>2/4</th><th></th></tr>
+<tr></tr>
 
+</table>
 
 
