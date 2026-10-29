@@ -17,7 +17,7 @@ Create lines with the tracks rails\&stations, then configure the lines with the 
 <tr><th>MF 19</th><th>The latest generation of steel-wheel metro designed to replace several ageing Paris Metro fleets</th><th>MF</th><th>70</th><th>161</th><th>4/5</th></tr>
 <tr><th>MP 89</th><th>Rubber-tyred metro existing in both automatic and manually driven versions</th><th>1.5kV DC/25kV AC</th><th>80</th><th>158</th><th>5/6</th></tr>
 <tr><th>MP 14</th><th>New rubber-tyred metro with high-capacity, designed for the busiest lines</th><th>MP</th><th>80</th><th>160</th><th>5/6/8</th></tr>
-<tr><th>MR3V/6V</th><thThe MR3V/MR6V is an Alstom Metropolis subway for the Grand Paris Express lines 15-16-17-18</th><th>MR</th><th>110</th><th>166</th><th>3/6</th></tr>
+<tr><th>MR3V/6V</th><th>The MR3V/MR6V is an Alstom Metropolis subway for the Grand Paris Express lines 15-16-17-18</th><th>MR</th><th>110</th><th>166</th><th>3/6</th></tr>
 
 </table>
 
