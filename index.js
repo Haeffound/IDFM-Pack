@@ -51,6 +51,9 @@
 		description: 'Tracks for all MF (traditionnal) métros. Do not run this as train.',
 		stats: {
 			maxSpeed: 22.22,             // m/s (≈80 kph)
+			maxAcceleration: 0.89,
+			accelerationCurve: { a0: 0.89, a1: 0.89, v1: 12.5, v2: 16, exponent: 2.6},
+			maxDeceleration: 1,
 			maxCantMm: 160,
 			maxCantDeficiencyMm: 135,
 			maxSlopePercentage: 5.5,
