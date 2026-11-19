@@ -128,7 +128,7 @@
 			stationMaintenanceCostPerYear: 250_000,
 			tphLimit: 35,
 		},
-		compatibleTrackTypes: ['mp89', 'heavy-metro'],
+		compatibleTrackTypes: ['heavy-metro'],
 		appearance: {color: '#640082', roofStyle: 'rounded', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2 },
 		portalCost: 10_000_000,
 		rampCost: 4_000_000,
@@ -174,7 +174,7 @@
 			stationMaintenanceCostPerYear: 250_000,
 			tphLimit: 42,
 		},
-		compatibleTrackTypes: ['mp14', 'heavy-metro'],
+		compatibleTrackTypes: ['heavy-metro'],
 		appearance: {color: '#640082', roofStyle: 'boxy', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2 },
 		portalCost: 10_000_000,
 		rampCost: 4_000_000,
@@ -222,7 +222,7 @@
 			stationMaintenanceCostPerYear: 200_000,
 			tphLimit: 30,
 		},
-		compatibleTrackTypes: ['mf77', 'light-metro'],
+		compatibleTrackTypes: ['light-metro'],
 		appearance: { color: '#00C4B3', roofStyle: 'boxy', bodyColor: '#AEB0AD'},
 		portalCost: 10_000_000,
 		rampCost: 4_000_000,
@@ -270,7 +270,7 @@
 			stationMaintenanceCostPerYear: 200_000,
 			tphLimit: 38,
 		},
-		compatibleTrackTypes: ['mf01', 'light-metro'],
+		compatibleTrackTypes: ['light-metro'],
 		appearance: { color: '#00C4B3', roofStyle: 'rounded', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2 },
 		portalCost: 10_000_000,
 		rampCost: 4_000_000,
@@ -318,7 +318,7 @@
 			stationMaintenanceCostPerYear: 200_000,
 			tphLimit: 40,
 		},
-		compatibleTrackTypes: ['mf19', 'light-metro'],
+		compatibleTrackTypes: ['light-metro'],
 		appearance: { color: '#00C4B3', roofStyle: 'rounded', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2 },
 		portalCost: 10_000_000,
 		rampCost: 4_000_000,
@@ -427,14 +427,14 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	/// RER B
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mi84',
 		name: 'MI 84',
-		description: 'Uses MI 84/1.5kV DC/25kV AC tracks–4/8 cars. EMU designed to operate seamlessly across both RATP and SNCF networks on the small gabarit of the RER B tunnel.',
+		description: 'Uses MI 84 (better tph)/1.5kV DC/25kV AC tracks–4/8 cars. EMU designed to operate seamlessly across both RATP and SNCF networks on the small gabarit of the RER B tunnel.',
 		stats: {
 			maxSpeed: 33.33,             // m/s (≈120 kph)
 			maxAcceleration: 1,
@@ -472,7 +472,7 @@
 			stationMaintenanceCostPerYear: 160_000,
 			tphLimit: 32,
 		},
-		compatibleTrackTypes: ['mi84', 'mi20', 'commuter-rail', 'commuter-rail-diesel'],
+		compatibleTrackTypes: ['mi84', 'commuter-rail', 'commuter-rail-diesel'],
 		appearance: {color: '#3C91DC', roofStyle: 'boxy', bodyColor: '#AEB0AD', catenary: true},
 		portalCost: 15_000_000,
 		rampCost: 5_000_000,
@@ -484,13 +484,13 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	window.SubwayBuilderAPI.trains.registerTrainType({
 		id: 'mi20',
 		name: 'MI 20',
-		description: 'Uses MI 84/1.5kV DC/25kV AC tracks–7/14 cars. This new generation EMU will increase capacity of the RER B by adding a second floor on half of the cars.',
+		description: 'Uses MI 20 (better tph)/1.5kV DC/25kV AC tracks–7/14 cars. This new generation EMU will increase capacity of the RER B by adding a second floor on half of the cars.',
 		stats: {
 			maxSpeed: 33.33,             // m/s (≈120 kph)
 			maxAcceleration: 1.15,
@@ -528,7 +528,7 @@
 			stationMaintenanceCostPerYear: 160_000,
 			tphLimit: 32,
 		},
-		compatibleTrackTypes: ['mi20', 'mi84', 'commuter-rail', 'commuter-rail-diesel'],
+		compatibleTrackTypes: ['mi20', 'commuter-rail', 'commuter-rail-diesel'],
 		appearance: {color: '#3C91DC', roofStyle: 'rounded', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2, catenary: true},
 		portalCost: 15_000_000,
 		rampCost: 5_000_000,
@@ -540,7 +540,7 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	/// SNCF TRACKS
@@ -548,9 +548,9 @@
 		name: 'Train Track 25kV AC',
 		description: '1435 mm Tracks, with 25kV AC overhead electrification (North and East of France). Do not run this as train.',
 		stats: {
-			maxSpeed: 44.44,             // m/s (≈160 kph)
+			maxSpeed: 55.55,             // m/s (≈200 kph)
 			maxSlopePercentage: 4,
-			maxSpeedLocalStation: 44.44, // m/s (≈160 kph)
+			maxSpeedLocalStation: 55.55, // m/s (≈200 kph)
 			minTurnRadius: 150,
 			minStationTurnRadius: 500,
 			parallelTrackSpacing: 3.5,
@@ -561,7 +561,7 @@
 			capacityPerCar: 1,
 			seatsPerCar: 1,
 			doorsPerCarPerSide: 1,
-			carLength: 13.7,
+			carLength: 20,
 			trainWidth: 2.6,
 			minStationLength: 115,
 			maxStationLength: 335,
@@ -579,16 +579,16 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	window.SubwayBuilderAPI.trains.modifyTrainType('commuter-rail-diesel', {
 		name: 'Train Track 1.5kV DC',
 		description: '1435 mm Tracks, with 1.5kV DC overhead electrification (South and West of France). Do not run this as train.',
 		stats: {
-			maxSpeed: 44.44,             // m/s (≈160 kph)
+			maxSpeed: 55.55,             // m/s (≈200 kph)
 			maxSlopePercentage: 4,
-			maxSpeedLocalStation: 44.44, // m/s (≈160 kph)
+			maxSpeedLocalStation: 55.55, // m/s (≈200 kph)
 			minTurnRadius: 150,
 			minStationTurnRadius: 500,
 			parallelTrackSpacing: 3.5,
@@ -599,7 +599,7 @@
 			capacityPerCar: 1,
 			seatsPerCar: 1,
 			doorsPerCarPerSide: 1,
-			carLength: 13.7,
+			carLength: 20,
 			trainWidth: 2.6,
 			minStationLength: 115,
 			maxStationLength: 335,
@@ -617,7 +617,7 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	// TRANSILIEN + RER C/D/E
@@ -662,7 +662,7 @@
 			stationMaintenanceCostPerYear: 160_000_000,
 			tphLimit: 24,
 		},
-		compatibleTrackTypes: ['z2n', 'commuter-rail', 'commuter-rail-diesel'],
+		compatibleTrackTypes: ['commuter-rail', 'commuter-rail-diesel'],
 		appearance: {color: '#FFBE00', roofStyle: 'boxy', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2, catenary: true},
 		portalCost: 15_000_000,
 		rampCost: 5_000_000,
@@ -674,7 +674,7 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	window.SubwayBuilderAPI.trains.registerTrainType({
@@ -718,7 +718,7 @@
 			stationMaintenanceCostPerYear: 160_000_000,
 			tphLimit: 40,
 		},
-		compatibleTrackTypes: ['rerng', 'commuter-rail', 'commuter-rail-diesel'],
+		compatibleTrackTypes: ['commuter-rail', 'commuter-rail-diesel'],
 		appearance: {color: '#00643C', roofStyle: 'boxy', bodyColor: '#D0D2D0', couplerWidthMultiplier: 2, catenary: true},
 		portalCost: 15_000_000,
 		rampCost: 5_000_000,
@@ -730,7 +730,7 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	window.SubwayBuilderAPI.trains.registerTrainType({
@@ -774,7 +774,7 @@
 			stationMaintenanceCostPerYear: 160_000_000,
 			tphLimit: 40,
 		},
-		compatibleTrackTypes: ['francilien', 'commuter-rail', 'commuter-rail-diesel'],
+		compatibleTrackTypes: ['commuter-rail', 'commuter-rail-diesel'],
 		appearance: {color: '#D282BE', roofStyle: 'rounded', bodyColor: '#BFC1BE', couplerWidthMultiplier: 2, catenary: true},
 		portalCost: 15_000_000,
 		rampCost: 5_000_000,
@@ -786,7 +786,7 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	window.SubwayBuilderAPI.trains.registerTrainType({
@@ -830,7 +830,7 @@
 			stationMaintenanceCostPerYear: 160_000_000,
 			tphLimit: 40,
 		},
-		compatibleTrackTypes: ['r2n', 'commuter-rail', 'commuter-rail-diesel'],
+		compatibleTrackTypes: ['commuter-rail', 'commuter-rail-diesel'],
 		appearance: {color: '#00A88F', roofStyle: 'rounded', bodyColor: '#AEB0AD', couplerWidthMultiplier: 2, catenary: true},
 		portalCost: 15_000_000,
 		rampCost: 5_000_000,
@@ -842,7 +842,7 @@
 		highway: null,
 		major: 14,
 		medium: 20,
-		minor: 30,
+		minor: 26,
 		},
 	});
 	// LIGHT RAIL
